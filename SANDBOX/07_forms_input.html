@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and imput</title>
+</head>
+<body>
+    <form action=""><!--tuhain formoor orj irsen ugugdliig damjuulah geh met-->
+        <div>
+            <label for="name">Ner  </label><br> <!--tuhain labeltai imput ni id gaar holbogdoj ajilladag-->
+            <input type="text" id="name" name="name" value="John">
+        </div><br>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="ta email haygaa bichne uu?">
+        </div>
+        <div>
+            <label for="Message">Setgegdel</label><br>
+            <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="age"></label>
+        </div>
+        <div>
+            <label for="birthday">Birthday</label><br>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <div>
+            <label for="Membership">Sonirhol</label><br>
+            <input type="radio" name="Membership" id="Membership" value="1" checked>1<br>
+            <input type="radio" name="Membership" id="Membership" value="2" checked>2<br>
+            <input type="radio" name="Membership" id="Membership" value="3" checked>3<br>
+        </div>
+        <div>
+            <label for="Hobbies">Sonirhol</label><br>
+            <input type="checkbox" name="Membership" id="Hobbies" value="1">music<br>
+            <input type="checkbox" name="Membership" id="Hobbies" value="2">sport<br>
+            <input type="checkbox" name="Membership" id="Hobbies" value="3">movies<br>
+        </div>
+    </form>
+</body>
+</html>
